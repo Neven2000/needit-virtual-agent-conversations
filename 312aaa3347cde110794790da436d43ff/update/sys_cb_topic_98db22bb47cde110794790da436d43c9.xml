@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>a99a22fb47cde110794790da436d43ca</category>
+        <channels/>
+        <connect_queue/>
+        <description>Topic allows users to view their open NeedIt records</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.39.sdp9","variables":{"681ea57b75944a859418dd900fa6f3e3":{"id":"681ea57b75944a859418dd900fa6f3e3","name":"LiveAgent_application","value":{"mode":"simple","value":null},"varType":"script","category":"vaVars"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"4d0e27758f7c4cc8a46d577b9099f28f":{"id":"4d0e27758f7c4cc8a46d577b9099f28f","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"8e3d8e9663d942b99476524e54a69c14":{"id":"8e3d8e9663d942b99476524e54a69c14","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"7522f1ea41424a10a42f5992dcd7ea21","edgeType":"Edge","source":"4d0e27758f7c4cc8a46d577b9099f28f","target":"8e3d8e9663d942b99476524e54a69c14","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>View Open NeedIt Records,NeedIt Request,need something</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>View Open NeedIt Records</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-23 09:16:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>98db22bb47cde110794790da436d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Open NeedIt Records</sys_name>
+        <sys_package display_value=" NeedIt Virtual Agent Conversations" source="x_958258_needit_vi">312aaa3347cde110794790da436d43ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value=" NeedIt Virtual Agent Conversations">312aaa3347cde110794790da436d43ff</sys_scope>
+        <sys_update_name>sys_cb_topic_98db22bb47cde110794790da436d43c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-23 09:16:03</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=98db22bb47cde110794790da436d43c9"/>
+</record_update>
